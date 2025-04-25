@@ -4,10 +4,10 @@
   tasks:
       - name: print hello world
         debug:
-            msg:"hell world!!.."
+            msg: "hell world!!.."
       - name: print host name
-         debug:
+        debug:
             var: ansible_host
       - name: print Ubantu version
-         debug:
+        debug:
             var: ansible_distribution
