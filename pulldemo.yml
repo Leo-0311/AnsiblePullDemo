@@ -1,7 +1,7 @@
 ---
 - name:First Pull Demo Ansible Playbook
   host localhost
-  task:
+  tasks:
    -name:print hello world
    debug:
      msg:"hell world!!.."
