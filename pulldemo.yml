@@ -9,5 +9,5 @@
          debug:
             var: ansible_host
       - name: print Ubantu version
-        debug:
+         debug:
             var: ansible_distribution
